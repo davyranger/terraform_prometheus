@@ -1,0 +1,36 @@
+# Local .terraform directories
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment files
+*.tfvars
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Terraform backups
+*.backup
+*.bak
+
+# Terraform plan files
+*.plan
+
+# Secrets files
+*.secrets
+
+# Terraform modules
+**/modules/**.tf
+
+# Other files
+*.log

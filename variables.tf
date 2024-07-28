@@ -3,12 +3,12 @@
 
 variable "aws_region" {
   description = "AWS region to launch servers."
-  default     = "ap-southeast-1"
+  default     = "ap-southeast-2"
 }
 
 variable "aws_availability_zone" {
   description = "AWS availabitiy zone to launch servers."
-  default     = "ap-southeast-1a"
+  default     = "ap-southeast-2a"
 }
 
 variable "aws_instance_type" {
@@ -28,7 +28,7 @@ variable "prometheus_access_name" {
 # Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
 variable "aws_amis" {
   default = {
-    ap-southeast-1 = "ami-0dad20bd1b9c8c004"
+    ap-southeast-2 = "ami-073d1cf8350b4e660"
   }
 }
 
